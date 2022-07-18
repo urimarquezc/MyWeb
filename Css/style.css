@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0 auto;
+    font-family:"montserrat", sans-serif;
+}
+:root{
+    --warm-black:rgb(48, 47, 47);
+}
+
+
+
+.pres{
+    background-image: url(/Proyecto_web_devf/img/pexels-pedro-figueras-681467.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    height: 400px;
+}
+
+.pres__cont{
+    position: relative;
+    padding: 70px;
+    padding-top: 100px;
+    text-align: start;
+}
+
+.pres h2{
+    font-size: 40px;
+    color: white;
+    position: relative;
+}
+
+.pres span{
+    color:red;
+}
+
+.header__boton{
+    margin-top: 40px;
+}
+
+.header__boton a{
+    margin-top: 40px;
+    width: 200px;
+    background-color: #2a2a2a;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    transition: .4s ease all;
+}
+.header__boton a{
+    font-size: 20px;
+    border-radius: 5px;
+    color: crimson;
+    text-align: center;
+}
+
+.header__boton a:hover{
+    color: white;
+    background: crimson;
+}
+
+
+.header{
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header__text{
+    font-family:"montserrat", sans-serif;
+}
+
+.header__text h2{
+    margin-top: 20px;
+    font-size: 40px;
+
+}
+
+.header__text span{
+    color:crimson;
+}
+
+.name{
+    width: 330px;
+}
+
+.header__text p{
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+}
+
+.hobbies{
+    padding-top:70px;
+    margin-top: 70px;
+    background: #1a1a1a;
+    height: 1400px;
+}
+
+.hobbies__aa{
+    text-decoration: none;
+    color: crimson;
+    transition: .4s ease all;
+}
+
+.hobbies__aa:hover{
+    color:maroon;
+}
+
+.hobbies__text{
+    text-align: center;
+    color: black;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    color: white;
+    margin-left: 20px ;
+    margin-right: 20px;
+}
+
+.hobbies h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family:"montserrat", sans-serif;
+}
+
+.hobbies span{
+    color:crimson;
+}
+
+.hobbies p{
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    color: white;
+    margin-left: 20px ;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.hobbies__item{
+    padding: 30px;
+    border-radius: 10px;
+    margin: 35px 5%;
+    color: white;
+    border-radius: 8px;
+    background: #1a1a1a;
+    box-shadow: inset 5px 5px 10px #0a0a0a,
+    inset -5px -5px 10px #2a2a2a;
+    transition: .4s ease all;
+}
+
+
+.hobbies__item h2{
+    color:crimson;
+    font-size: 27px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.hobbies__item p{
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.footer{    
+    background:#2a2a2a;
+    padding-top: 70px;
+    height: 900px;
+}
+
+.footer p{    
+    font-size: 13px;
+    color: white;
+}
+
+.footer h2{
+    color: white;
+    font-size: 40px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.footer span{
+    color: crimson;
+}
+
+
+.footer p{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.footer__items{
+    margin-top: 40px;
+}
+
+.footer__pp{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 10px;
+}
+
+.footer__item{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    margin-top: 20px;
+    background:#1a1a1a;
+    border-radius: 50px;
+    transition: .4s ease all;
+    position: relative;
+    background:#1a1a1a;
+}
+
+.footer__item:hover{
+    background: crimson;
+}
+
+@media only screen and (min-width: 1198px){
+    .pres{
+        background-image: url(/Proyecto_web_devf/img/pexels-pedro-figueras-681467.jpg);
+        background-size: cover;
+        background-position: top center;
+        position: relative;
+        z-index: 1;
+        height: 500px;
+    }
+    .pres h2{
+        font-size: 60px;
+        color: white;
+        position: relative;
+    }
+    .pres__cont{
+        position: relative;
+        padding: 110px;
+        text-align: start;
+    }
+    .name{
+        width: 400px;
+    }
+    .header__text p{
+        margin-top: 20px;
+        text-align: center;
+        color: black;
+        letter-spacing: 0.5px;
+        font-size: 13px;
+        margin-right: 170px;
+        margin-left: 170px;
+    }
+    .hobbies__item{
+        text-align: center;
+        width: 200px;
+        margin: 1.5%;
+        position: relative;
+        flex-direction: column;
+        width:50%;
+        display:flex;
+    }
+    .skills{
+        display: flex;
+        flex-direction: row;
+    }
+    .hobbies{
+        height: 700px;
+    }
+    .footer__item{
+        margin: 20px;
+        width:100%;
+        display:flex;
+    }
+    .footer{
+        height: 500px;
+    }
+    .footer__items{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+
+@media only screen and (min-width: 1353px){
+    .pres{
+        background-image: url(/Proyecto_web_devf/img/pexels-pedro-figueras-681467.jpg);
+        background-size: cover;
+        background-position: top center;
+        position: relative;
+        z-index: 1;
+        height: 550px;
+    }
+    .pres h2{
+        font-size: 60px;
+        color: white;
+        position: relative;
+    }
+    .pres__cont{
+        position: relative;
+        padding: 160px;
+        padding-left: 220px;
+        text-align: start;
+    }
+    .name{
+        margin-top: 80px;
+        width: 550px;
+        margin-bottom: 20px;
+    }
+    .header__text p{
+        margin-top: 20px;
+        text-align: center;
+        color: black;
+        letter-spacing: 0.5px;
+        font-size: 13px;
+        margin-right: 350px;
+        margin-left: 350px;
+    }
+
+    .hobbies{
+        height: 700px;
+    }
+
+    .footer{
+        height: 500px;
+    }
+
+    .hobbies__item{
+        width: 200px;
+        position: relative;
+        flex-direction: column;
+        width:50%;
+        display:flex;
+    }
+    .skill{
+        flex-direction: row;
+        }
+    }
